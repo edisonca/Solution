@@ -27,9 +27,10 @@ namespace Solution
             var longestPath = _Nodes.OrderByDescending(x => x._Level).FirstOrDefault()._Level; 
             var steepestPathNodes = new List<int[]>(); 
             _Nodes.Where(y => y._Level == longestPath).OrderBy(x => x._Id).ToList().ForEach(y => steepestPathNodes.Add(GetTreeNodeValues(y)));
-            var steepestPath = steepestPathNodes.OrderByDescending(x => x.Max() - x.Min()).FirstOrDefault(); 
-            Console.WriteLine("The drop is : {0} ", steepestPath.Max() - steepestPath.Min());
-            Console.WriteLine("The path is :{0}", string.Join(",", steepestPath));
+            var steepestPath = steepestPathNodes.OrderByDescending(x => x.Max() - x.Min()).FirstOrDefault();
+            Console.WriteLine("Length :{0}", steepestPath.Count());
+            Console.WriteLine("Drop : {0} ", steepestPath.Max() - steepestPath.Min());
+            Console.WriteLine("Path :{0}", string.Join(",", steepestPath));
             Console.ReadLine();
 
         }
@@ -42,7 +43,7 @@ namespace Solution
         static int[][] ReadFile(string path)
         {
             var filePath = path ; 
-            return File.ReadLines(filePath).Skip(1).Select(x => x.Split(' ').Select(y => int.Parse(y)).ToArray()).ToArray();
+            return File.ReadLines(filePath).Skip(1).Select(_X => _X.Split(' ').Select(_Y => int.Parse(_Y)).ToArray()).ToArray();
         }
         /// <summary>
         /// Evaluate possible routes according to current nodes
