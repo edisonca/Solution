@@ -1,0 +1,13 @@
+F:\Ease\Prueba\Solution\Solution\bin\Debug\netcoreapp3.1\Solution.exe
+F:\Ease\Prueba\Solution\Solution\bin\Debug\netcoreapp3.1\Solution.deps.json
+F:\Ease\Prueba\Solution\Solution\bin\Debug\netcoreapp3.1\Solution.runtimeconfig.json
+F:\Ease\Prueba\Solution\Solution\bin\Debug\netcoreapp3.1\Solution.runtimeconfig.dev.json
+F:\Ease\Prueba\Solution\Solution\bin\Debug\netcoreapp3.1\Solution.dll
+F:\Ease\Prueba\Solution\Solution\bin\Debug\netcoreapp3.1\Solution.pdb
+F:\Ease\Prueba\Solution\Solution\obj\Debug\netcoreapp3.1\Solution.csprojAssemblyReference.cache
+F:\Ease\Prueba\Solution\Solution\obj\Debug\netcoreapp3.1\Solution.AssemblyInfoInputs.cache
+F:\Ease\Prueba\Solution\Solution\obj\Debug\netcoreapp3.1\Solution.AssemblyInfo.cs
+F:\Ease\Prueba\Solution\Solution\obj\Debug\netcoreapp3.1\Solution.csproj.CoreCompileInputs.cache
+F:\Ease\Prueba\Solution\Solution\obj\Debug\netcoreapp3.1\Solution.dll
+F:\Ease\Prueba\Solution\Solution\obj\Debug\netcoreapp3.1\Solution.pdb
+F:\Ease\Prueba\Solution\Solution\obj\Debug\netcoreapp3.1\Solution.genruntimeconfig.cache
